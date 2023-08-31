@@ -43,8 +43,8 @@ def main():
     target_port = int(sys.argv[2])
     target_username = sys.argv[3]
     
-    # Load password list from "rockyou.txt" file
-    with open("rockyou.txt", "r") as file:
+    # Load password list from "Rockyou.txt" file
+    with open("Rockyou.txt", "r") as file:
         password_list = [line.strip() for line in file]
 
     # Loop through the password list and attempt SSH login
