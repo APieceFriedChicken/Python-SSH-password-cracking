@@ -1,4 +1,4 @@
-# Python-SSH-password-cracking
+# Python-SSH-password-cracking Summary
 The purpose of this project is to showcase the application of Python and its Paramiko library in automating the process of conducting an attack to break into a target server by cracking the password that is used for login via SSH. The vulnerabilities being exploited in this case are: 1) SSH is configured with the password-based authentication mechanism enabled, which is less secure and robust compared to the key-based SSH authentication; 2) The password used for the SSH login is weak. The intention is not only to exploit vulnerabilities but also to highlight the importance of secure SSH configuration and best practices while also creating awareness about potential security risks, in network environments.
 
 Devices and/or Technologies
